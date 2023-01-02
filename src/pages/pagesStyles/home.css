@@ -1,21 +1,10 @@
-.h1text {
-    text-align: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 3rem;
-    margin-bottom: 0.75%;
-}
-
 .buttonToCustomAndPre {
-    color: blue;
+    color: yellow;
     font-weight: bold;
     min-height: 100px;
-    font-size: 3rem;
+    font-size: 1.5rem;
     border-width: 1px;
-    border-radius: 2rem;
-    background-color: grey;
+    background-color: #99CC66;
     transition-duration: 0.5s;
 }
 
@@ -24,35 +13,12 @@
     color: blue;
 }
 
-.buttonsPresentation {
-    text-align: center;
-}
-
-.spaceBetweenButtons {
-    width: 30px;
-    height: auto;
-    display: inline-block;
-}
-
-.img {
-    text-align: center;
-    margin-top: 50px;
-    flex: 33.33%;
-}
-
 .imgText {
     font-size: 3rem;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 10px;
-}
-
-.imagesAndText {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row;
 }
 
 

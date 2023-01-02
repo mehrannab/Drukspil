@@ -16,3 +16,8 @@ body {
     font-size: 3rem;
     color: black;
 }
+
+button.button:hover {
+    background-color: green;
+    transition: 0.7s;
+}

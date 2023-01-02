@@ -3,22 +3,22 @@ import { AiFillCaretRight, AiOutlineHome, AiOutlineInfoCircle } from "react-icon
 
 export const SidebarData: SidebarItem[] = [
     {
-        title: 'Home',
+        title: 'Hjem',
         path: '/',
         icon: <AiOutlineHome color="white"/>
     },
     {
-        title: 'Predesign',
+        title: 'Vores udvalg',
         path: 'predesign',
         icon: <AiFillCaretRight color="white"/>
     },
     {
-        title: 'Customdesign',
+        title: 'Design dit eget',
         path: 'customdesign',
         icon: <AiFillCaretRight color="white"/>
     },
     {
-        title: 'About us',
+        title: 'Om os',
         path: 'information',
         icon: <AiOutlineInfoCircle color="white"/>
     }

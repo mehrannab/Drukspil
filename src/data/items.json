@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Sommer brætspil",
+        "pris": "49 kr",
+        "image": "src/images/one.png"
+    },
+    {
+        "id": 2,
+        "name": "Jule brætspil",
+        "pris": "49 kr",
+        "image": "src/images/two.png"
+    },
+    {
+        "id": 3,
+        "name": "Nytårs brætspil",
+        "pris": "49 kr",
+        "image": "src/images/three.png"
+    }
+]

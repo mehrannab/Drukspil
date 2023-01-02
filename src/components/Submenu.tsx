@@ -11,18 +11,19 @@ const SidebarLink = styled(Link)`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
-    font-size: 1.8rem;
-    margin-left: 1rem;
-    padding-bottom: rem;
+    font-size: 15px;
     text-decoration: none;
+    margin-bottom: 10%;
+    margin-left: 5%;
     &:hover {
         background-color: #585856;
+        font-weight: bold;
+        font-size: 18px;
     }
 `;
 
 const SidebarLabel = styled.span`
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     color: white;
 `;
 

@@ -6,11 +6,17 @@ import Information from "./pages/Information";
 import Predesign from "./pages/Predesign";
 import './App.css';
 import Payment from "./pages/Payment";
+import { createTheme, ThemeProvider } from '@mui/material'
+import back from './images/back.png';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
+const theme = createTheme({
+})
 
   return (
-    <BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
       <Sidebar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
@@ -19,7 +25,8 @@ const App = () => {
           <Route path="information" element={<Information/>}/>
           <Route path="payment" element={<Payment/>}/>
         </Routes>
-    </BrowserRouter>
+      </BrowserRouter>
+      </ThemeProvider>
   );
 };
 
